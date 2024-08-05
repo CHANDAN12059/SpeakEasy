@@ -8,7 +8,7 @@ const app=express();
 const server=createServer(app);
 const io=new Server(server,{
     cors: {
-        origin: "http://localhost:5173", // Allow requests from your React app's origin
+        origin: "https://speakeasy-2.onrender.com", // Allow requests from your React app's origin
         methods: ["GET", "POST"]
       }
 });
