@@ -12,7 +12,7 @@ function User() {
     let [messages,setMessages]=useState([]);
     let [id,setId]=useState("");
 
-    const socket = useMemo(() => io("http://localhost:3000/"), []);
+    const socket = useMemo(() => io("https://speakeasy-tltb.onrender.com"), []);
 
     useEffect(() => {
 
