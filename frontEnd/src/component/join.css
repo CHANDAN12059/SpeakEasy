@@ -1,0 +1,18 @@
+
+
+.joinContainer{
+margin-top: 7rem;
+
+
+}
+.navbar{
+ 
+    background-color: #03346E;
+    height: 20%;
+    display: flex;
+    align-items: center;
+    color: #ffffff;
+}
+.navbar h4{
+    margin-left: 0.5rem;
+}
